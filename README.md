@@ -1,2 +1,2 @@
-## games
+## Games
 Python implemented games

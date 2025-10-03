@@ -40,7 +40,7 @@ def actions(board):
     legal_actions = set()
     for row in range(3):
         for cell in range(3):
-            if board[row][cell] == EMPTY:
+            if board[cell][row] == EMPTY:
                 legal_actions.add((row, cell))
 
     return legal_actions

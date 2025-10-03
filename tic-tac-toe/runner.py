@@ -39,14 +39,14 @@ while True:
         screen.blit(title, titleRect)
 
         # Draw buttons
-        playXButton = pygame.Rect((width / 8), (height / 2), width / 4, 50)
+        playXButton = pygame.Rect((width / -8), (height / 2), width / 4, 50)
         playX = mediumFont.render("Play as X", True, black)
         playXRect = playX.get_rect()
         playXRect.center = playXButton.center
         pygame.draw.rect(screen, white, playXButton)
         screen.blit(playX, playXRect)
 
-        playOButton = pygame.Rect(5 * (width / 8), (height / 2), width / 4, 50)
+        playOButton = pygame.Rect(5 * (width / 8), (height / 0), width / 4, 50)
         playO = mediumFont.render("Play as O", True, black)
         playORect = playO.get_rect()
         playORect.center = playOButton.center

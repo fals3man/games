@@ -1,0 +1,12 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "AI Python application using Minmax adversial search algorithm for playing tic tac toe against a computer. It is impossible to beat it.",
+  "main": "node-games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

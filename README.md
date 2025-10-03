@@ -71,3 +71,5 @@ The right panel shows the **next shape** in the queue.
 - Add difficulty levels to Tic-Tac-Toe.
 - Add score tracking and high-score saving in Tetris.
 - Package both games as standalone executables.  
+
+// nice game , very challenging levels
